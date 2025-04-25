@@ -2,14 +2,14 @@
 
 A simple command-line CRUD tool using **Prisma ORM** and **TypeScript** for interacting with a PostgreSQL database.
 
-## 📦 Features
+##  Features
 
-- ✅ Create a new record
-- 📄 Read all records
-- ✏️ Update an existing record
-- ❌ Delete a record
+-  Create a new record
+-  Read all records
+-  Update an existing record
+-  Delete a record
 
-## 🛠️ Technologies
+##  Technologies
 
 - TypeScript
 - Node.js
@@ -17,7 +17,7 @@ A simple command-line CRUD tool using **Prisma ORM** and **TypeScript** for inte
 - PostgreSQL
 - dotenv
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -75,31 +75,31 @@ npx prisma generate
 
 ### 6. Use the CLI
 
-#### ➕ Create a Record
+####  Create a Record
 
 ```bash
 npx ts-node src/index.ts create "Your Name" "Your Description"
 ```
 
-#### 📄 Read All Records
+####  Read All Records
 
 ```bash
 npx ts-node src/index.ts read
 ```
 
-#### 🔄 Update a Record
+####  Update a Record
 
 ```bash
 npx ts-node src/index.ts update 1 "Updated Name" "Updated Description"
 ```
 
-#### ❌ Delete a Record
+####  Delete a Record
 
 ```bash
 npx ts-node src/index.ts delete 1
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 📦 project-root
@@ -115,13 +115,13 @@ npx ts-node src/index.ts delete 1
 └── 📜 README.md
 ```
 
-## 🧠 Additional Ideas (Optional)
+##  Additional Ideas (Optional)
 
-- ✅ Input validation using Zod or Yup
-- 📦 Export records to CSV or JSON
-- 🔐 Role-based CLI authentication
-- 🌐 REST or GraphQL API wrapper
-- 🧪 Unit & Integration testing with Jest
+-  Input validation using Zod or Yup
+-  Export records to CSV or JSON
+-  Role-based CLI authentication
+-  REST or GraphQL API wrapper
+-  Unit & Integration testing with Jest
 
 ## 📝 License
 
